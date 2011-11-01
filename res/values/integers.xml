@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name = "length">0</integer>
+	<integer name = "height">0</integer>
+	<integer name = "width">1</integer>
+	<integer name = "doorHeight">2</integer>
+	<integer name = "doorWidth">3</integer>
+    <integer name = "treadHeight">0</integer>
+    <integer name = "treadLength">1</integer>
+    <integer name = "staircaseHeight">2</integer>
+    <integer name = "staircaseLength">3</integer>
+    <integer name = "angle">4</integer>
+    <integer name = "numSteps">5</integer>
+    <integer name = "primaryAngle">2</integer>
+    <integer name = "secondaryAngle">3</integer>
+</resources>

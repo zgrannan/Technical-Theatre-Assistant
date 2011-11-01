@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:custom ="http://schemas.android.com/apk/res/com.zgrannan.crewandroid"
+
+	android:orientation="vertical" android:padding="10dip"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:id="@+id/doorframe_interface">
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:text="@string/frame_text" android:id="@+id/frame_textView" android:layout_width="112dp" android:textSize="14dp"
+			android:layout_height="wrap_content" android:layout_gravity="center"/>
+		<Spinner android:id="@+id/doorframe_frame_spinner" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:prompt="@string/frame_text"
+			android:scrollbarAlwaysDrawVerticalTrack="true" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal" >
+		<TextView android:text="@string/lid_text" android:id="@+id/lid_textView"
+			android:layout_height="wrap_content" android:layout_width="112dp" android:textSize="14dp"/>
+		<Spinner android:id="@+id/doorframe_lid_spinner" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:prompt="@string/lid_text"
+			android:scrollbarAlwaysDrawVerticalTrack="true" />
+	</LinearLayout>
+
+	<com.zgrannan.crewandroid.DimensionButton custom:prefix = "@string/frame_height" custom:prompt="@string/set_frame_height" custom:requestCode = "@integer/height" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/frame_height_button">
+	</com.zgrannan.crewandroid.DimensionButton>
+	<com.zgrannan.crewandroid.DimensionButton custom:prefix = "@string/frame_width" custom:prompt="@string/set_frame_width" custom:requestCode = "@integer/width" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/frame_width_button">
+	</com.zgrannan.crewandroid.DimensionButton>
+
+	<com.zgrannan.crewandroid.DimensionButton custom:prefix = "@string/door_height" custom:prompt="@string/set_door_height" custom:requestCode = "@integer/doorHeight" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/door_height_button">
+	</com.zgrannan.crewandroid.DimensionButton>
+	<com.zgrannan.crewandroid.DimensionButton custom:prefix = "@string/door_width" custom:prompt="@string/set_door_width" custom:requestCode = "@integer/doorWidth" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/door_width_button">
+	</com.zgrannan.crewandroid.DimensionButton>
+</LinearLayout>

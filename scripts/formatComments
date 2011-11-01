@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Formats comments for every java file in the source directory
+FILES=../src/com/zgrannan/crewandroid/*.java
+for f in $FILES
+	do
+		python commentFormatter.py $f $f
+done

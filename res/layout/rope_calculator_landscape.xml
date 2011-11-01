@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="horizontal">
+   
+        <LinearLayout android:layout_height="match_parent" android:layout_width="wrap_content" android:id="@+id/linearLayout7" android:orientation="vertical">
+            <TextView android:layout_marginLeft="10dip" android:layout_width="wrap_content" android:layout_marginTop="5dip" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/rope_material" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <Spinner android:layout_margin="5dip" android:layout_height="wrap_content" android:id="@+id/rope_spinner" android:layout_width="match_parent" android:layout_weight="1"></Spinner>
+            <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_weight="2.85" android:layout_width="275dp">
+                <LinearLayout android:layout_marginRight="20dip" android:layout_marginLeft="20dip" android:layout_height="match_parent" android:layout_width="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout2">
+                    <RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content">
+                        <RadioButton android:layout_width="wrap_content" android:id="@+id/new_button" android:layout_height="wrap_content" android:checked="true" android:text="@string/new_material"></RadioButton>
+                        <RadioButton android:layout_width="wrap_content" android:id="@+id/used_button" android:layout_height="wrap_content" android:text="@string/used_material"></RadioButton>
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout android:layout_marginTop="10dip" android:layout_height="match_parent" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout3">
+                    <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/safety_factor" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                    <EditText android:text="@string/default_safety_factor" android:layout_gravity="center_vertical" android:id="@+id/safety_factor_edit" android:layout_marginTop="20dip" android:inputType="numberDecimal" android:layout_height="wrap_content" android:layout_width="match_parent">
+                        <requestFocus></requestFocus>
+                    </EditText>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_marginRight="10dip" android:layout_marginTop="15dip" android:layout_marginLeft="10dip" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout4">
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content" android:text="@string/rope_diameter" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+                <Spinner android:layout_height="wrap_content" android:id="@+id/diameter_spinner" android:layout_width="wrap_content" android:layout_weight="47.56"></Spinner>
+            </LinearLayout>
+        </LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout5"
+		android:layout_width="match_parent" android:layout_marginTop="20dip" android:layout_height="match_parent" android:orientation="vertical">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/rope_name_text" android:layout_height="wrap_content"
+			android:text="@string/maximum_safe_capacity" android:layout_width="match_parent"></TextView>
+		<TextView android:id="@+id/capacity_text" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="match_parent" android:layout_marginLeft="25dip" android:layout_marginRight="25dip" android:layout_marginTop="25dip" android:layout_marginBottom="0dip"></TextView>
+		<TextView android:textColor="#FF0000" android:id="@+id/warning_text" android:gravity="bottom" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="match_parent" android:layout_gravity="bottom" android:layout_marginTop="20dip" android:layout_height="match_parent"></TextView>
+	</LinearLayout>
+
+</LinearLayout>

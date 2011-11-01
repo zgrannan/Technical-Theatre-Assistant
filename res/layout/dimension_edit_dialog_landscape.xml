@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<TextView android:id="@+id/prompt_text" android:text="@string/dimension_edit_prompt"
+		android:layout_height="fill_parent" android:layout_width="wrap_content"
+		android:textSize="24dp" android:textColor="#FFFFFF"
+		android:layout_gravity="center"></TextView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+		<LinearLayout android:id="@+id/dimensionedit"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_gravity="center" android:layout_width="match_parent">
+			<LinearLayout android:id="@+id/dimensionWizardLayout"
+				android:layout_width="match_parent" android:orientation="horizontal"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:layout_marginTop="10dp">
+				<EditText android:layout_height="wrap_content"
+					android:text="0" android:id="@+id/feet_edit" android:layout_width="48dp"
+					android:inputType="phone"></EditText>
+				<TextView android:text="@string/feet" android:id="@+id/feet_textview"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_marginLeft="12dp" android:layout_marginRight="12dp"></TextView>
+				<EditText android:layout_height="wrap_content"
+					android:text="0" android:id="@+id/inches_edit"
+					android:layout_width="48dp" android:inputType="phone"></EditText>
+				<TextView android:text="@string/inches" android:id="@+id/inches_textview"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_marginLeft="12dp" android:layout_marginRight="12dp"></TextView>
+				<Spinner android:layout_height="wrap_content" android:id="@+id/fraction_spinner"
+					android:layout_gravity="center_horizontal" android:layout_width="100dp"></Spinner>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/manualDimensionLayout"
+				android:orientation="horizontal" android:gravity="center"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_marginTop="25dp">
+				<EditText android:text="0" android:id="@+id/manual_inch_edit"
+					android:layout_height="wrap_content" android:layout_width="1in"
+					android:inputType="phone"></EditText>
+				<TextView android:id="@+id/manual_inches_textview"
+					android:text="@string/inches" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:layout_marginLeft="12dp"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:orientation="horizontal"
+			android:gravity="center">
+			<Button android:id="@+id/confirm_button" android:text="@string/ok"
+				android:layout_height="wrap_content" android:layout_width="100dp"></Button>
+			<Button android:id="@+id/cancel_button" android:text="@string/cancel"
+				android:layout_height="wrap_content" android:layout_width="100dp">
+			</Button>
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<!--  Everything Changes -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	
+	android:id="@+id/cutlist_view"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+  >
+  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textColor="#FF00FF"
+        android:text="@string/cutlist_header"
+        android:id="@+id/cutlist_header"
+    />
+  	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:id="@+id/cutlist"
+    />
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   	>
+   	 	<Button android:text="@string/view_diagram" android:id="@+id/diagram_button" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+   		<Button android:text="@string/go_back" android:id="@+id/go_back_button" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+   </LinearLayout>
+  </LinearLayout>

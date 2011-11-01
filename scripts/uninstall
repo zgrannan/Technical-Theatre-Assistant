@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Uninstalls Technical Theatre Assistant
+
+~/android-sdk-linux_x86/platform-tools/adb uninstall com.zgrannan.crewandroid
+

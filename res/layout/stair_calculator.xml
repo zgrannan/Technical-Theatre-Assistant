@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/com.zgrannan.crewandroid"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="match_parent">
+		<TextView android:text="@string/dimension_calculator_header"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_margin="20dp"></TextView>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+			android:id="@+id/linearLayout4" android:weightSum="1"
+			android:layout_width="match_parent">
+			<com.zgrannan.crewandroid.DimensionButton
+				custom:prefix="@string/staircase_length"
+				custom:prompt="@string/set_staircase_length"
+				custom:requestCode="@integer/staircaseLength"
+				custom:lockValue="true"
+				android:layout_height="wrap_content"
+				android:id="@+id/staircase_length_button"
+				android:layout_width="wrap_content" android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:id="@+id/linearLayout3" android:weightSum="1"
+			android:layout_width="match_parent" android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+			<com.zgrannan.crewandroid.DimensionButton
+				custom:prefix="@string/staircase_height"
+				custom:prompt="@string/set_staircase_height"
+				custom:requestCode="@integer/staircaseHeight"
+				custom:lockValue="true"
+				android:layout_height="wrap_content" android:id="@+id/staircase_height_button"
+				android:layout_width="wrap_content"
+				android:layout_weight="1"/>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+			android:id="@+id/linearLayout2" android:weightSum="1"
+			android:layout_width="match_parent">
+			<com.zgrannan.crewandroid.DimensionButton
+				custom:prefix="@string/tread_length"
+				custom:prompt="@string/set_tread_length"
+				custom:requestCode="@integer/treadLength"
+				custom:lockValue="true"
+				android:layout_height="wrap_content" android:id="@+id/tread_length_button"
+				android:text="@string/set_tread_length" android:layout_width="wrap_content"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:id="@+id/linearLayout1"
+			android:weightSum="1" android:orientation="horizontal"
+			android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp">
+			<com.zgrannan.crewandroid.DimensionButton
+				custom:prefix="@string/tread_height"
+				custom:prompt="@string/set_tread_height"
+				custom:requestCode="@integer/treadHeight"
+				custom:lockValue="true"
+				 android:id="@+id/tread_height_button"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:id="@+id/linearLayout5"
+			android:weightSum="1" android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp">
+			<com.zgrannan.crewandroid.DoubleButton
+				custom:prefix="@string/angle"
+				custom:post = "@string/degrees"
+				custom:prompt="@string/set_angle"
+				custom:lockValue="true"
+				custom:requestCode="@integer/angle" android:id="@+id/angle_button"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:id="@+id/linearLayout6"
+			android:weightSum="1" android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp">
+			<com.zgrannan.crewandroid.IntButton
+				custom:prefix="@string/num_steps"
+				custom:prompt="@string/set_num_steps"
+				custom:requestCode="@integer/numSteps"
+				custom:lockValue="true"
+				android:id="@+id/num_steps_button"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_weight="1"/>
+		</LinearLayout>
+		<Button android:layout_height="wrap_content" android:id="@+id/start_over_button"
+			android:text="@string/start_over" android:layout_width="wrap_content"
+			android:layout_marginTop="10dp" android:layout_gravity="center_horizontal"></Button>
+
+	</LinearLayout>
+</ScrollView>

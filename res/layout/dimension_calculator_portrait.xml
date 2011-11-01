@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/frame" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/scroll" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<RelativeLayout android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<TextView android:id="@+id/dimension_text" android:text="@string/dimension_text"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_marginBottom="25dp"></TextView>
+
+			
+
+
+			<include android:id="@+id/dimensioneditor" layout="@layout/dimension_edit"
+				android:layout_height="fill_parent" android:layout_width="fill_parent"
+				android:layout_below="@id/dimension_text"></include>
+
+		</RelativeLayout>
+	</ScrollView>
+	<LinearLayout android:id="@+id/arithmetic_buttons"
+				android:orientation="horizontal" android:layout_height="match_parent"
+				android:gravity="bottom|center_vertical" android:layout_width="match_parent">
+				<Button android:id="@+id/add_button" android:text="@string/add"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+				<Button android:id="@+id/subtract_button" android:text="@string/subtract"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+				</Button>
+				<Button android:id="@+id/multiply_button" android:text="@string/multiply"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+				<Button android:id="@+id/divide_button" android:text="@string/divide"
+					android:layout_width="wrap_content" android:layout_height="wrap_content">
+				</Button>
+		</LinearLayout>
+</FrameLayout>

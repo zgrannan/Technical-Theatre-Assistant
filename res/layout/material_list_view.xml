@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" style="@style/ListItemStyle"
+	android:clickable="true">
+	<TextView android:text="TextView" android:padding="10dp"
+		android:textSize="14pt" android:textColor="#FF0000" android:id="@+id/material_text_view"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1" style="@style/ListTextViewStyle"></TextView>
+</LinearLayout>

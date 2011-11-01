@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/dimensionedit" android:orientation="vertical">
+    <LinearLayout android:id="@+id/dimensionWizardLayout" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_gravity="center_horizontal">
+        <EditText android:layout_height="wrap_content" android:text="0" android:id="@+id/feet_edit" android:layout_width="48dp" android:inputType="phone" ></EditText>
+        <TextView android:text="@string/feet" android:id="@+id/feet_textview" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"></TextView>
+        <EditText android:layout_height="wrap_content" android:text="0" android:id="@+id/inches_edit" android:layout_width="48dp" android:inputType="phone"></EditText>
+        <TextView android:text="@string/inches" android:id="@+id/inches_textview" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"></TextView>
+        <Spinner android:layout_height="wrap_content" android:id="@+id/fraction_spinner" android:layout_gravity="center_horizontal" android:layout_width="100dp"></Spinner>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="horizontal" android:layout_margin="24dp">
+        <CheckBox android:text="@string/negative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/negative_checkbox" android:layout_marginLeft="50dp" android:visibility="invisible"></CheckBox>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/manualDimensionLayout" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_gravity="center">
+    	<EditText android:text = "0" android:id="@+id/manual_inch_edit" android:layout_height="wrap_content" android:layout_width="1in" android:layout_marginLeft="12dp" android:inputType="phone"></EditText>
+    	<TextView android:id="@+id/manual_inches_textview" android:text = "@string/inches" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="12dp"></TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/save_setpiece"
+    	android:icon = "@drawable/ic_menu_save"
+    	android:title = "@string/save_this_set_piece" />
+    
+    <item android:id="@+id/view_cutlist"
+   		 android:icon = "@drawable/ic_menu_cutlist"
+    	android:title = "@string/cutlist" />
+    <item android:id="@+id/instructions"
+    	android:icon = "@drawable/ic_menu_instructions"
+    	android:title = "@string/build_instructions" />
+    	
+    <item android:id="@+id/view_diagram"
+    	android:title = "@string/diagram_2d"
+    	android:icon = "@drawable/ic_menu_diagram" />
+    	
+    <item android:id="@+id/view_diagram_3d"
+    	  android:title = "@string/diagram_3d"
+    	  android:icon = "@drawable/ic_menu_diagram" />
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/com.zgrannan.crewandroid"
+	android:padding="10dip"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1" android:orientation="horizontal">
+    <LinearLayout android:layout_weight = "0.3" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <TextView android:text="@string/trig_calculator_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/diagram_textview"></TextView>
+        <com.zgrannan.crewandroid.CustomDrawableView android:id="@+id/diagram" android:layout_width="match_parent" android:layout_height="fill_parent"></com.zgrannan.crewandroid.CustomDrawableView>
+    </LinearLayout>
+
+	<LinearLayout android:id="@+id/linearLayout1" android:layout_weight = "0.7"
+		android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent">
+			<com.zgrannan.crewandroid.DimensionButton
+				custom:prompt="@string/set_height" custom:prefix="@string/height"
+				custom:requestCode="@integer/height" custom:lockValue="true"
+				android:id="@+id/height_button" android:layout_height="wrap_content"
+				android:layout_width="match_parent" />
+			<com.zgrannan.crewandroid.DimensionButton
+				custom:prompt="@string/set_width" custom:prefix="@string/width"
+				custom:requestCode="@integer/width" custom:lockValue="true"
+				android:id="@+id/width_button" android:layout_height="wrap_content"
+				 android:layout_width="match_parent" />
+			<com.zgrannan.crewandroid.DoubleButton
+				custom:prompt="@string/set_primary_angle" custom:prefix="@string/primary_angle"
+				custom:requestCode="@integer/primaryAngle" custom:lockValue="true"
+				custom:post="@string/degrees" 
+				android:layout_height="wrap_content" android:id="@+id/primary_angle_button"  android:layout_width="match_parent" />
+			<com.zgrannan.crewandroid.DoubleButton
+				custom:prompt="@string/set_secondary_angle" custom:prefix="@string/secondary_angle"
+				custom:requestCode="@integer/secondaryAngle" custom:lockValue="true"
+				custom:post="@string/degrees" android:id="@+id/secondary_angle_button"
+				 android:layout_height="wrap_content"  android:layout_width="match_parent" />
+			<Button android:text="@string/start_over" android:id="@+id/start_over_button"
+				android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:orientation="vertical" android:padding="10dip"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+
+	
+	<com.zgrannan.crewandroid.TouchSurfaceView
+		android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/diagram3d" >
+		
+		</com.zgrannan.crewandroid.TouchSurfaceView>
+		<TextView android:text="@string/diagram_text" android:id="@+id/diagram_textview"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dp" android:textColor="#FF00FF" android:layout_gravity="center_horizontal|top"></TextView>
+			<Button android:text="@string/go_back" android:id="@+id/goback_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal|bottom"></Button>
+
+</FrameLayout>
+
+	  

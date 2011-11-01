@@ -1,0 +1,15 @@
+Using Eclipse, this project is relatively easy to compile and run.
+
+First, ensure that you have the Android SDK configured with Eclipse:
+http://developer.android.com/sdk/index.html
+
+Second, import this project into Eclipse:
+File->Import->Existing Project into Eclipse
+
+Third, download SectionList and set it up as a library:
+	- Download from http://code.google.com/p/android-section-list/
+	- Import the project into eclipse
+	- Configure Technical-Theatre-Assistant to use SectionList as a library.
+
+You should be all set!
+

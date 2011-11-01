@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="name">Technical Theatre Assistant</string>
+	<string name="add">Add</string>
+	<string name="app_name">Technical Theatre Assistant v0.98</string>
+	<string name="toBuild_text">What are you making?</string>
+	<string name="build_text">Build it!</string>
+	<string name="frame_text">Frame material: </string>
+	<string name="lid_text">Lid material: </string>
+	<string name="diagram_text">Diagram Viewer</string>
+	<string name="cutlist_text">View Cutlist</string>
+	<string name="cutlist_headertext">Cutlist Viewer</string>
+	<string name="dimension_text">Dimension Calculator </string>
+	<string name="firststart_text">
+		Thank you for downloading Technical Theatre Assistant.\n\n
+
+		Prior to building any set pieces, I would recommend that you view the
+		material information,
+		so that you are aware of the dimensions of the wood pieces used by this
+		App.\n\n
+
+	</string>
+
+	<string name="contact_text">
+		This application is no longer in development, but if you want to change anything, the source code is available.
+		Check it out:\nhttps://github.com/zgrannan/Technical-Theatre-Assistant
+	</string>
+	<string-array name="fraction_array">
+		<item>0/16</item>
+		<item>1/16</item>
+		<item>1/8</item>
+		<item>3/16</item>
+		<item>1/4</item>
+		<item>5/16</item>
+		<item>3/8</item>
+		<item>7/16</item>
+		<item>1/2</item>
+		<item>9/16</item>
+		<item>5/8</item>
+		<item>11/16</item>
+		<item>3/4</item>
+		<item>13/16</item>
+		<item>7/8</item>
+		<item>15/16</item>
+	</string-array>
+	<string-array name="toBuild_array">
+		<item>Platform</item>
+		<item>Hollywood Flat</item>
+		<item>Broadway Flat</item>
+		<item>Doorframe</item>
+		<item>Studwall</item>
+	</string-array>
+	<string-array name="homescreen_array">
+		<item>Create a new set piece</item>
+		<item>Open a saved set piece</item>
+		<item>Dimension calculator</item>
+		<item>Stair calculator</item>
+		<item>Triangle calculator</item>
+		<item>Rope strength calculator</item>
+		<item>Material information</item>
+		<item>About</item>
+		<item>Backstage badger</item>
+		<item>Quit</item>
+	</string-array>
+	<string name="cancel">Cancel</string>
+	<string name="subtract">Subtract</string>
+	<string name="cutlist_header">Cutlist</string>
+	<string name="delete">Delete</string>
+	<string name="enter_a_number">Enter a number</string>
+	<string name="feet">Feet</string>
+	<string name="inches">Inches</string>
+	<string name="go_back">Go Back</string>
+	<string name="multiply">Multiply</string>
+	<string name="name_edit">Name: </string>
+	<string name="negative">Negative</string>
+	<string name="next_step">Next Step</string>
+	<string name="ok">OK</string>
+	<string name="open">Open</string>
+	<string name="previous_step">Previous Step</string>
+	<string name="save">Save</string>
+	<string name="set_length">Set Length</string>
+	<string name="set_width">Set Width</string>
+	<string name="view_diagram">View Diagram</string>
+	<string name="dimension_edit_prompt">Enter a Dimension:</string>
+	<string name="divide">Divide</string>
+	<string name="set_door_height">Set Door Height</string>
+	<string name="set_door_width">Set Door Width</string>
+	<string name="set_frame_height">Set Frame Height</string>
+	<string name="set_frame_width">Set Frame Width</string>
+	<string name="width">Width</string>
+	<string name="length">Length</string>
+	<string name="height">Height</string>
+	<string name="set_height">Set Height</string>
+	<string name="door_height">Door Height</string>
+	<string name="door_width">Door Width</string>
+	<string name="no_width_error">You must enter a value for width.</string>
+	<string name="no_length_error">You must enter a value for length.</string>
+	<string name="no_door_width_error">You must enter a value for door width.</string>
+	<string name="no_door_height_error">You must enter a value for door height.</string>
+	<string name="enter_width_prompt">Please enter the width:</string>
+	<string name="enter_length_prompt">Please enter the length:</string>
+	<string name="enter_door_height_prompt">Please enter the door height:</string>
+	<string name="enter_height_prompt">Please enter the height:</string>
+	<string name="enter_door_width_prompt">Please enter the door width:</string>
+	<string name="save_set_piece">Save set piece</string>
+	<string name="frame_width">Frame Width</string>
+	<string name="frame_height">Frame Height</string>
+	<string name="no_set_pieces_error">There are no saved set pieces.</string>
+	<string name="dimension_calculator_header">Fill in the specifications that the staircase must
+		conform to, and the calculator will fill in the rest.</string>
+	<string name="tread_height">Step Height</string>
+	<string name="tread_length">Step Length</string>
+	<string name="staircase_height">Staircase Height</string>
+	<string name="staircase_length">Staircase Length</string>
+	<string name="angle">Angle</string>
+	<string name="set_tread_height">Set Step Height</string>
+	<string name="set_tread_length">Set Step Length</string>
+	<string name="set_staircase_height">Set Staircase Height</string>
+	<string name="set_staircase_length">Set Staircase Length</string>
+	<string name="set_angle">Set Angle (Degrees)</string>
+	<string name="set_num_steps">Set Number of Steps</string>
+	<string name="num_steps">Number of Steps</string>
+	<string name="fixed">Don\'t Change</string>
+	<string name="no_angle_error">You must enter an angle.</string>
+	<string name="no_tread_height_error">You must enter a value for tread height.</string>
+	<string name="no_tread_length_error">You must enter a value for tread length.</string>
+	<string name="no_staircase_height_error">You must enter a value for staircase height.
+	</string>
+	<string name="no_staircase_length_error">You must enter a value for staircase length.
+	</string>
+	<string name="no_num_steps_error">You must specify a number of steps.</string>
+	<string name="cannot_lock_value">There is a conflict between some variables. Ensure
+		that the specified dimensions are accurate.</string>
+	<string name="start_over">Start Over</string>
+	<string name="degrees">Degrees</string>
+	<string name="no_height_error">You must enter a value for height.</string>
+	<string name="invalid_angle_error">The angle must be greater than 0 degrees and less
+		than 90 degrees.</string>
+	<string name="staircase_doesnt_divide_evenly">The steps of the staircase and the staircase size
+		must be compatible.</string>
+	<string name="tread_height_larger_than_staircase_height">The step height cannot be larger than the staircase
+		height.</string>
+	<string name="tread_length_larger_than_staircase_length">The step length cannot be larger than the staircase
+		length.</string>
+	<string name="zero_steps_error">You must have at least one step.</string>
+	<string name="set_primary_angle">Set Angle A</string>
+	<string name="set_secondary_angle">Set Angle C</string>
+	<string name="primary_angle">Angle A</string>
+	<string name="secondary_angle">Angle C</string>
+	<string name="trig_calculator_header">Enter the information you know about this triangle,
+		and the calculator will fill in the rest.</string>
+	<string name="trig_calculator">Triangle Calculator</string>
+	<string name="stair_calculator">Stair Calculator</string>
+	<string name="new_material">New Material</string>
+	<string name="used_material">Used Material</string>
+	<string name="maximum_safe_capacity">Maximum Safe Capacity of </string>
+	<string name="safety_factor">Safety Factor</string>
+	<string name="rope_diameter">Rope Diameter</string>
+	<string name="rope_material">Rope Material</string>
+	<string name="default_safety_factor">5</string>
+	<string name="pounds">Pounds</string>
+	<string name="invalid_safety_factor">Invalid Safety Factor</string>
+	<string name="safety_factor_too_low">Safety factor should be at least %.1f.</string>
+	<string name="used_rope_warning">Sometimes used rope can be pretty bad. Use good
+		judgment when deciding to use it.</string>
+	<string name="rope_calculator">Rope Calculator</string>
+	<string name="hey_there">Hey there...</string>
+	<string name="rope_warning">Use this feature at your own risk. I am not
+		responsible for anything that happens as the result of using the rope
+		calculator (or any part of this application for the matter). Thanks!
+	</string>
+	<string name="rope_data_source">Where did this information come from?</string>
+	<string name="rope_source_text">
+		The information about rope strength comes from
+		<i>Backstage Handbook: An Illustrated Almanac of Technical Information
+		</i>
+		by Paul Carter.
+	</string>
+	<string name="final_step">Final Step!</string>
+	<string name="build_warning">Be careful...</string>
+	<string name="build_anyways">Build anyways</string>
+	<string name="dont_build">Don\'t build</string>
+	<string name="attach_fragments">Attach the fragments.</string>
+	<string name="attach_frame_using_corner_braces">Attach the frame using corner braces.</string>
+	<string name="attach_lid">Attach the lid using %ss</string>
+	<string name="build_failed">The build failed.</string>
+	<string name="changes_will_be_lost">If you don\'t save, this set piece will be lost
+		forever.</string>
+	<string name="do_you_want_to_save">Do you want to save?</string>
+	<string name="dont_save">Don\'t save</string>
+
+	<string name="enter_a_dimension">Enter a dimension</string>
+	<string name="enter_dimension_to_add">Enter the dimension you would like to add.</string>
+	<string name="enter_dimension_to_subtract">Enter the dimension you would like to subtract
+	</string>
+	<string name="enter_number_to_divide">Enter the number you would like to divide the
+		dimension by</string>
+	<string name="enter_number_to_multiply">Enter the number you would like to multiply the
+		dimension by</string>
+	<string name="fragment_done">The fragment is complete.</string>
+	<string name="hand_staple">Hand staple</string>
+	<string name="io_exception_occurred">An I/O exception occurred.</string>
+	<string name="length_must_be_no_greater_than">Length must be no greater than %s.</string>
+	<string name="measure_from_end_using_keystones">Measure %s from the end, and connect using
+		keystones.</string>
+	<string name="overwrite">Overwrite</string>
+	<string name="problem_loading_set_pieces_from_file">There was a problem loading the set pieces.
+	</string>
+	<string name="save_successful">Save successful.</string>
+	<string name="saved_data_cannot_be_found">The saved data could not be found.</string>
+	<string name="set_piece_already_exists_do_you_want_to_overwrite">The set piece already exists, would you like to
+		overwrite?</string>
+	<string name="set_piece_could_not_be_deleted">The set piece could not be deleted.</string>
+	<string name="set_piece_could_not_be_saved">The set piece could not be saved.</string>
+	<string name="that_number_is_invalid">That number is invalid.</string>
+	<string name="welcome">Welcome!</string>
+	<string name="width_must_be_no_greater_than">The width must be no greater than %s.</string>
+	<string name="doorframe_message">The inside of the doorframe is %1$s wider and %2$s
+		taller than the door.</string>
+	<string name="attach_bottommost_pieces_to_side_pieces_using_frameFasteners">Attach the bottommost pieces to the side pieces
+		using %ss.</string>
+	<string name="attach_frame_using_fastener">Connect the frame using %ss.</string>
+	<string
+		name="attach_inner_side_pieces_to_bottom_pieces_using_frameFasteners">Attach the inner side pieces to the bottom pieces using %ss.
+	</string>
+	<string
+		name="attach_inner_top_piece_to_outer_and_inner_side_pieces_using_frameFasteners">Attach the inner top piece to the outer and inner side pieces
+		using %ss.</string>
+	<string name="attach_inner_top_piece_to_outer_top_piece_using_a_toggle">Attach the inner top piece to the outer top piece
+		using a toggle.</string>
+	<string name="attach_lid_to_door_frame_and_route_out_the_door">Attach the lid to the door frame and route out the
+		door.</string>
+	<string name="attach_lid_using_FASTENER">Attach the lid to the frame using %ss.</string>
+	<string name="attach_outer_and_inner_side_pieces_using_toggles">Attach the inner and outer side pieces using
+		toggles.</string>
+	<string name="attach_toggles_using_FASTENERS">Attach the toggles using %ss.</string>
+	<string name="attach_topmost_piece_to_the_side_pieces_using_frameFasteners">Attach the topmost piece to the side pieces using
+		%ss.</string>
+	<string name="by">by</string>
+	<string name="connect_the_frame_of_the_studwall_using_FASTENERS">Connect the frame of the studwall using %ss.
+	</string>
+	<string name="connect_the_vertical_pieces_of_the_studwall_using_FASTENERS">Connect the vertical pieces of the studwall using
+		%ss.</string>
+	<string name="delete_successful">Delete successful!</string>
+	<string name="diagram">Diagram</string>
+	<string name="done">Done!</string>
+	<string name="door_height_must_be_no_greater_than">Door height must be no greater than %s.</string>
+	<string name="door_width_must_be_no_greater_than">Door width must be no greater than %s.</string>
+	<string name="fragment">Fragment</string>
+	<string name="frame_height_must_be_at_least">Frame height must be at least %s.</string>
+	<string name="frame_height_must_be_no_greater_than">Frame height must be no greater than %s.</string>
+	<string name="frame_width_must_be_at_least">Frame width must be at least %s.</string>
+	<string name="frame_width_must_be_no_greater_than">Frame width must be no greater than %s.</string>
+	<string name="hollywood">Hollywood</string>
+	<string name="length_must_be_at_least">Length must be at least %s.</string>
+	<string
+		name="measure_DIM_from_each_end_and_attach_the_crossbeam_using_SCREW">Measure %1$s from each end and attach the crossbeam using %2$ss.
+	</string>
+	<string
+		name="measure_DIM_from_each_end_and_attach_the_crossbeams_using_SCREW">Measure %1$s from each end and attach the crossbeams using %2$ss.
+	</string>
+	<string name="platform">Platform</string>
+	<string name="step">Step</string>
+	<string name="broadway">Broadway</string>
+	<string name="doorframe">Doorframe</string>
+	<string name="studwall">Studwall</string>
+	<string name="this_is_very_long_are_you_sure_you_want_to_build_this">This set piece is very long, are you sure you want
+		to build this?</string>
+	<string name="this_is_very_wide_are_you_sure_you_want_to_build_this">This set piece is very wide, are you sure you want
+		to build it?</string>
+	<string name="width_must_be_at_least">Width must be at least %s.</string>
+	<string name="frame_materials">Frame Materials</string>
+	<string name="lid_materials">Lid Materials</string>
+	<string name="depth">Depth</string>
+	<string name="cutlist">Cutlist</string>
+	<string name="build_instructions">Build Instructions</string>
+	<string name="diagram_2d">2D Diagram</string>
+	<string name="diagram_3d">3D Diagram (Beta)</string>
+	<string name="save_this_set_piece">Save this set piece</string>
+</resources>
