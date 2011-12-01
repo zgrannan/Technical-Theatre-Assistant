@@ -4,7 +4,7 @@ First, ensure that you have the Android SDK configured with Eclipse:
 http://developer.android.com/sdk/index.html
 
 Second, import this project into Eclipse:
-File->Import->Existing Project into Eclipse
+File->New->Project from Existing Source
 
 Third, download SectionList and set it up as a library:
 	- Download from http://code.google.com/p/android-section-list/
